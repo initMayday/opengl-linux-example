@@ -7,3 +7,5 @@ meson setup build
 Then you can run ./run.sh. It runs meson compile -C build, and runs the resulting binary.
 
 glad and stb_image are under their own respective licenses - they are only included here for the sake of completeness
+
+You will need both glfw and spdlog installed as packages on your system.
